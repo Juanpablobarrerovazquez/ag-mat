@@ -1,0 +1,34 @@
+
+
+
+.bg-welcome {
+    background-image: url('img/imagenes/DSC_0024.JPG');
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+
+
+
+body {
+    background-color: rgb(221, 221, 218);
+     
+}
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 500%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+nav{
+    background-color: rgb(1, 1, 24);
+}
+p{
+    color: rgb(1, 1, 36);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
