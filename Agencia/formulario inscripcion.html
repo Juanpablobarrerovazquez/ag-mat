@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+</head>
+<body>
+    
+
+
+
+
+    <form action="/signup" method="post">
+        <p>
+          <label>Title</label><br>
+          <label>
+            <input type="radio" name="title" value="mr">
+            Varon
+          </label>
+          <label>
+            <input type="radio" name="title" value="mrs">
+            Mujer
+          </label>
+          <label>
+            <input type="radio" name="title" value="miss">
+            otro
+          </label>
+        </p>
+        <p>
+          <label>Nombre de pila</label><br>
+          <input type="text" name="first_name">
+        </p>
+        <p>
+          <label>Apellidos</label><br>
+          <input type="text" name="last_name">
+        </p>
+        <p>
+          <label>Email</label><br>
+          <input type="email" name="email" required>
+        </p>
+        <p>
+          <label>teléfono</label><br>
+          <input type="tel" name="phone">
+        </p>
+        <p>
+            <p>cuentenos algo sobre usted</p>
+            <textarea name="andanzas" id="formularioinscripción" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+          <label>Password</label><br>
+          <input type="password" name="password">
+        </p>
+        <p>
+          <label>Residencia</label><br>
+          <select>
+            <option>Castilla</option>
+            <option>Cantabria</option>
+            <option>Andalucía</option>
+            <option>Papúa-Nueva Guinea</option>
+            <option>Cuenca</option>
+          </select>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" value="terms">
+            Acepto todo lo que los dioses me envíen <a href="/terms">terms and conditions</a>
+          </label>
+        </p>
+        <p>
+          <button>Adelante¡</button>
+          <button type="reset">Más tarde</button>
+        </p>
+      </form>
+
+
+
+
+
+
+</body>
+</html>
