@@ -2,7 +2,7 @@
 
 
 .bg-welcome {
-    background-image: url('IMG2/DSC_0024.JPG');
+    background-image:url('IMG2/DSC_0024.JPG') ;
     background-position: center;
     background-size: cover;
     padding-top: 90px;
